@@ -3,20 +3,19 @@
 ## Bước 1: Push code lên GitHub
 
 ### 1.1 Tạo repository mới trên GitHub
-1. Truy cập https://github.com/new
-2. Tên repo: `expense-manager` (hoặc tên bạn muốn)
-3. Chọn **Public** hoặc **Private**
-4. **KHÔNG** chọn "Initialize with README"
-5. Click **Create repository**
+✅ **ĐÃ HOÀN THÀNH!**
+- Repository: https://github.com/haihoandaotao/thuchi
+- Code đã được push thành công
 
 ### 1.2 Push code từ máy local
 ```bash
-# Đã thực hiện: git init và git commit
-# Bây giờ chỉ cần:
+# ✅ ĐÃ HOÀN THÀNH!
+# Code đã được push lên: https://github.com/haihoandaotao/thuchi.git
 
-git remote add origin https://github.com/YOUR_USERNAME/expense-manager.git
-git branch -M main
-git push -u origin main
+# Nếu có thay đổi code sau này:
+git add .
+git commit -m "Mô tả thay đổi"
+git push origin main
 ```
 
 ---
